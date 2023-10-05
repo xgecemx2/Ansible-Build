@@ -15,7 +15,7 @@ commento_description: Comments for website  # default: Commento
 commento_hostname: commento01
 commento_host: comment.example.com
 commento_deny_signups: "true" # default: "false"
-commento_db_hostname: postgres01
+commento_db_hostname: 2024
 commento_db_user: commento
 commento_db_password: "{{ vault_commento_db_password }}"
 commento_smtp_host: mail.example.com
